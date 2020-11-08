@@ -66,3 +66,32 @@ server.on('requset',(req)=>{
 res.setHeader('Content-Type','text/html;charset=utf-8')
 ````
 
+**快捷创建 package.json : npm init -y**  注意：自能在英文目录下才能运行成功 空格也不行
+
+装包之后就会多出一个节点：dependencies  这个节点记录你装了啥包
+
+npm install 读取自己的节点里面的所有包 安装这些
+
+npm uninstall 命名 卸载指定的包  成功后自动从package立的dependencies中移除这些  卸载全局给个-g
+
+devDependencies 节点里面存的是开发阶段用的包，上线之后用不上的包
+
+**项目包和全局包**
+
+包的两种存在形式
+
+作为普通文件存在，作为命令行存在
+
+ting_toc -f （文件名
+
+）是一个可以把MD文档解析html
+
+# Express
+
+Web网站服务器
+
+API接口服务器
+
+req.query  //获取到的?后面的参数
+
+req.params //是东陶匹配道的URL参数，默认是一个空对象

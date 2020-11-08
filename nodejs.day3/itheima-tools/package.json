@@ -1,0 +1,18 @@
+{
+    "name": "itheima-tools-wys",
+    "version": "1.0.0",
+    "description": "提供格式化时间、HTMLEsape相关的功能",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "wy",
+        "itheima"
+    ],
+    "author": "wy",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}

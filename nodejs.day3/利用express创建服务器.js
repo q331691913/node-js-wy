@@ -4,8 +4,8 @@ const express = require('express')
 const app = express()
     //4.监听客户端的get和post请求 并向客户端响应具体的内容
 app.get('/user', (req, res) => {
-
-    //调用res.send()响应一个json对象给客户端
+    req.url
+        //调用res.send()响应一个json对象给客户端
     res.send({ name: 'zs', age: 18 })
 })
 app.post('/uesr/', (req, res) => {

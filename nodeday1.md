@@ -97,6 +97,8 @@ fs.readFile(absolutePath, 'utf8', (err, data) => {
 
 ## 最后一个案例要掌握的方法
 
+
+
 - reg.test(str)，匹配
 
 - reg.exec(str)，提取

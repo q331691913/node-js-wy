@@ -18,7 +18,6 @@ router.post('/post', (req, res) => {
         status: 0, //0表示处理成功，1表示处理失败
         msg: 'POST 请求成功！', //状态的描述
         data: body //需要响应给客户端的数据
-
     })
 })
 module.exports = router

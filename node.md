@@ -215,7 +215,7 @@ Access-Control-Allow-Origin：<origin>|*
 MYSQL的基本使用
 
 ````mysql
-SELETE password FROM new_table  //从什么列中查询数据，后面接表名
+	SELETE password FROM new_table  //从什么列中查询数据，后面接表名
 //插入数据
 insert into new_table (username,password) values(	)
 //将id为几的用户密码更新

@@ -232,3 +232,29 @@ count 查询总数据条数
 
 ````
 
+# session和JWT区别
+
+````js
+session身份认证适合没有跨域的时候，
+JWT身份认证适合跨域的时候使用
+````
+
+# session使用
+
+````js
+下载 npm i express-session包
+const session =reqiure('express-session')
+//设置全局中间件
+app.use(
+    session({
+        secret: 'itheima',
+        resave: false,
+        saveUninitialized: true,
+    })
+)
+req.session.user=req.body // 获取用户的信息
+req.session.login =true //用户的登陆状态
+//清空session信息 
+req.session.destroy()
+````
+

@@ -13,7 +13,7 @@ fs.writeFile('path','HELLO NODE.JS!',function(err){
 })
 ````
 
-/g所有的
+/g所有的1
 
 fs中的./代表的是当前的工作路径
 
@@ -229,7 +229,7 @@ select * form new_table order by status desc, username asc
 //and 必须满足两个条件 or 满足其中之一就可以了
 
 count 查询总数据条数 
-
+ where is_delete=0 order by id asac 
 ````
 
 # session和JWT区别
